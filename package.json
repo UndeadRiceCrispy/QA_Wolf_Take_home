@@ -1,0 +1,25 @@
+{
+  "name": "qa_wolf_take_home",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5"
+  },
+  "dependencies": {
+    "@datadog/browser-logs": "^6.4.0",
+    "@datadog/browser-rum": "^6.4.0",
+    "dd-trace": "^5.40.0",
+    "dotenv": "^16.4.7",
+    "hot-shots": "^10.2.1",
+    "playwright": "^1.50.1",
+    "winston": "^3.17.0",
+    "winston-transport": "^4.9.0"
+  }
+}
