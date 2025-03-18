@@ -1,0 +1,29 @@
+{
+  "name": "hacker-news-scraper",
+  "version": "1.0.0",
+  "description": "Hacker News article scraper with metrics and logging",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.41.0",
+    "dotenv": "^16.4.1",
+    "winston": "^3.11.0",
+    "hot-shots": "^10.0.0",
+    "terminal-image": "^2.0.0",
+    "dd-trace": "^4.0.0",
+    "winston-transport": "^4.7.0",
+    "@datadog/browser-logs": "^4.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.9"
+  }
+}

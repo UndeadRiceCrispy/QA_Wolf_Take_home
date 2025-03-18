@@ -1,0 +1,20 @@
+api_key: 
+site: datadoghq.com
+
+# Enable APM
+apm_config:
+  enabled: true
+
+remote_configuration:
+  enabled: true
+  
+# Enable logs
+logs_enabled: true
+
+# Enable metrics collection
+dogstatsd_port: 8125
+dogstatsd_non_local_traffic: true
+
+# Log collection configuration
+logs_config:
+  container_collect_all: true 
